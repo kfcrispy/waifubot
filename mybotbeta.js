@@ -1,5 +1,6 @@
-var Discord = require("discord.js");
-var bot = new Discord.Client();
+const Discord = require("discord.js");
+const bot = new Discord.Client();
+const config = require("/Users/Chang-Syuan/fwtproject/config.json");
 const setTable = require("/Users/Chang-Syuan/fwtproject/FWTSetData.json");
 const aliasList = require("/Users/Chang-Syuan/fwtproject/FWTSetAliases.json");
 
@@ -80,28 +81,27 @@ function findSet(alias) {
 };
 
 bot.on("message", msg => {
-    let prefix = "!"; // Sets the prefix
-    if (!msg.content.startsWith(prefix)) return; // Checks for prefix
+    if (!msg.content.startsWith(config.prefix)) return; // Checks for prefix
     if (msg.author.bot) return; // Checks if sender is a bot
 
-    if (msg.content.startsWith(prefix + "ping")) {
+    if (msg.content.startsWith(config.prefix + "ping")) {
         msg.channel.sendMessage("pong!");
-    } else if (msg.content.startsWith(prefix + "tadaima") && (msg.content.includes("maid"))) {
+    } else if (msg.content.startsWith(config.prefix + "tadaima") && (msg.content.includes("maid"))) {
         msg.channel.sendMessage("おかえりなさいませ！ご主人様♥, \nDo you want dinner or a shower or \*blushes\* me?");
-    } else if (msg.content.startsWith(prefix + "tadaima")) {
+    } else if (msg.content.startsWith(config.prefix + "tadaima")) {
         msg.channel.sendMessage("Okaeri dear, \nDo you want dinner or a shower or \*blushes\* me?");
     } else if (msg.content.startsWith("!pull")) { // Single pull
         pull = coocooPull(false);
         msg.channel.sendMessage(pull);
-    } else if (msg.content.startsWith(prefix + "whale")) { // 10x pull
-        if (msg.author.id.startsWith("163390095402074113")) { // Add IDs for hacks
+    } else if (msg.content.startsWith(config.prefix + "whale")) { // 10x pull
+        if (msg.author.id.startsWith(config.ownerID)) { // My hack
             pull10 = coocooPull10(false); // Changing this to true gives me SS pulls
             msg.channel.sendMessage(pull10);
         } else {
             pull10 = coocooPull10(false);
             msg.channel.sendMessage(pull10);
         }
-    } else if (msg.content.startsWith(prefix + "set")) { // Searches database for set info
+    } else if (msg.content.startsWith(config.prefix + "set")) { // Searches database for set info
         var message = msg.content;
         var messageLength = message.length;
         var setLocation = message.indexOf(" ", 0);
@@ -118,4 +118,4 @@ bot.on("ready", () => {
     console.log("I am ready!");
 });
 bot.on("error", e => { console.error(e); });
-bot.login("MjY5MDAwNzY3OTA4NjEwMDU5.C1i-Eg.any7fYM1VCa0qrxy2JJXnOYxhTg");
+bot.login(config.token);
