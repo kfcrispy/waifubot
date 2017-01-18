@@ -8,7 +8,7 @@
   },
   {
     "name": "Death Blow",
-    "aliases": ["death blow", "db"]
+    "aliases": ["death blow", "db", "deathblow"]
   },
   {
     "name": "Slime King's Dignity",
@@ -20,7 +20,7 @@
   },
   {
     "name": "Crusader's Path",
-    "aliases": ["crusader's path", "crusaders path", "crusader path", "cp"]
+    "aliases": ["crusader's path", "crusaders path", "crusader path", "cp", "crusader"]
   },
   {
     "name": "Thank-you Letter",
@@ -40,7 +40,7 @@
   },
   {
     "name": "Spirit of Cold Steel",
-    "aliases": ["spirit of cold steel", "socs", "kendo"]
+    "aliases": ["spirit of cold steel", "socs", "kendo", "cold steel"]
   },
   {
     "name": "Transform! Magic Girl!",
@@ -64,7 +64,7 @@
   },
   {
     "name": "Here Comes a Super Rookie!",
-    "aliases": ["here comes a super rookie!", "rookie", "noob"]
+    "aliases": ["here comes a super rookie!", "rookie", "noob", "n00b"]
   },
   {
     "name": "I'm a Cat",
@@ -80,7 +80,7 @@
   },
   {
     "name": "Lista Blizzard",
-    "aliases": ["lista blizzard", "lista"]
+    "aliases": ["lista blizzard", "lista", "blizzard", "ice"]
   },
   {
     "name": "Battlefield Healer",
@@ -196,7 +196,7 @@
   },
   {
     "name": "Serial Killer",
-    "aliases": ["serial killer"]
+    "aliases": ["serial killer", "serial"]
   },
   {
     "name": "",
@@ -212,7 +212,7 @@
   },
   {
     "name": "Vivid Claw Mark",
-    "aliases": ["vivid claw mark", "muzaka", "muz"]
+    "aliases": ["vivid claw mark", "muzaka", "muz", "mufasa"]
   },
   {
     "name": "Mad Scientist",
@@ -256,7 +256,7 @@
   },
   {
     "name": "Hero of Ikaruga",
-    "aliases": ["hero of ikaruga", "jin kisaragi", "jink"]
+    "aliases": ["hero of ikaruga", "jin kisaragi", "jink", "jin k"]
   },
   {
     "name": "Diligent Secretary",
@@ -352,11 +352,11 @@
   },
   {
     "name": "Mad Guitarist",
-    "aliases": ["mad guitarist"]
+    "aliases": ["mad guitarist", "guitar"]
   },
   {
     "name": "Shadow Corps",
-    "aliases": ["shadow corps", "sc"]
+    "aliases": ["shadow corps", "sc", "shadow"]
   },
   {
     "name": "Nephthys Conqueror",
@@ -376,7 +376,7 @@
   },
   {
     "name": "Tiger Claw Tribe Guardian",
-    "aliases": ["tiger claw tribe guardian", "tiger claw", "tc"]
+    "aliases": ["tiger claw tribe guardian", "tiger claw", "tc", "tiger tribe"]
   },
   {
     "name": "",
@@ -476,7 +476,7 @@
   },
   {
     "name": "New Elian Kingdom Cavalry",
-    "aliases": ["new elian kingdom cavalry", "new elian kingdom", "new elian cavalry", "new elian"]
+    "aliases": ["new elian kingdom cavalry", "new elian kingdom", "new elian cavalry", "new elian", "cavalry", "elian"]
   },
   {
     "name": "Super Ranger: Black",
@@ -556,7 +556,7 @@
   },
   {
     "name": "Legacy of the High Humans",
-    "aliases": ["legacy of the high humans", "high human legacy", "hh legacy", "legacy", "hh", "ecto"]
+    "aliases": ["legacy of the high humans", "high human legacy", "hh legacy", "legacy", "hh", "ecto", "hhl", "lhh"]
   },
   {
     "name": "Die to Live",
@@ -572,7 +572,7 @@
   },
   {
     "name": "I'm a Team Player",
-    "aliases": ["i'm a team player", "im a team player", "tean player", "basketball"]
+    "aliases": ["i'm a team player", "im a team player", "team player", "basketball"]
   },
   {
     "name": "Friday the 13th",
